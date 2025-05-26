@@ -1,20 +1,16 @@
-🧮 Linux Process Lifecycle Analysis
-Analysed the execution of cp -vi .bashrc bashrc.bak to explore process creation, memory management, file operations, and OS-level security in Linux. Tracked user–kernel interactions using system tools like strace, pmap, and ls -l, mapping the full lifecycle from fork to termination.
+🛫 Real-Time OS Design for Autonomous Drones
+Developed a proposed real-time operating system architecture for AeroNav Tech’s autonomous drone platform, focused on safety-critical functions like navigation, obstacle avoidance, and secure communication. The design applied OS principles such as Rate Monotonic Scheduling (RMS), memory isolation, TLB-backed paging, and interprocess communication to ensure deterministic behaviour and robust protection.
 
-Explored core OS concepts including virtual memory allocation, file descriptors, and signal handling. Evaluated how Linux enforces permissions, handles faults, and separates memory using the MMU and TLB.
+Presented as a technical poster to demonstrate the practical application of OS theory in aerospace and defence contexts.
 
 Key Areas Covered:
 
-🔁 Linux process lifecycle (NEW → TERMINATED)
+🧮 Real-time process scheduling and task prioritisation (RMS)
 
-💾 Virtual memory, page faults, and address translation
+💾 Paging, TLB usage, and memory isolation
 
-📂 File operations and I/O: open(), read(), write()
+🔄 Interprocess communication design and synchronisation
 
-🧠 System calls: fork(), exec(), exit()
-
-🔐 OS security: segmentation faults, permissions, VFS
-
-Skills: Linux · Operating Systems · System Calls · Memory Management · File Systems · OS Security · Technical Analysis
+Skills: Operating System Design · Real-Time Systems · Technical Research · Embedded Concepts
 
 
